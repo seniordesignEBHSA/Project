@@ -13,7 +13,7 @@
 int main()
 {
     // Initialise the digital pin LED1 as an output
-    DigitalOut led(LED1);
+    DigitalOut led(LED2);
 
     while (true) {
         led = !led;
